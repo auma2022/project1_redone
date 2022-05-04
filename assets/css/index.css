@@ -1,0 +1,254 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.p{
+  font-size: 20px;
+  font-weight: 500;
+}
+.page{
+  padding: 0 80px;
+  margin: auto;
+}
+.navbar{
+  width: 100%;
+  z-index: 999;
+  padding: 30px 0;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(49, 82, 82);
+}
+.navbar .page{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar #schl{
+  font-size: 40px;
+  font-weight: 600;
+}
+.navbar #schl span{
+  color: #cf2c78;
+}
+.navbar .menu li{
+  list-style: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500px;
+  margin-left: 20px;
+}
+.btn{
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #cf2c78;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+
+
+
+.back{
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 50px;
+  justify-content: space-between;
+  
+}
+.left{
+  text-align: left;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 30px;
+  width: 100%;
+}
+img{
+  width: 600px;
+  height: auto;
+}
+
+.left .title{
+  font-weight: 200;
+  margin: 20px;
+  font-size: 28px;
+}
+p.parag{
+  
+  font-size: 15px;
+
+}
+.left .about{
+  color: #cf2c78;
+  margin: 20px;
+}
+
+.left p{
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 300;
+}
+button{
+  margin: 20px 20px 0 20px;
+}
+.left .plan{
+  background-color: #cf2c78;
+  color: rgb(255, 251, 251);
+  font-size: 15px;
+  padding: 5px 20px;
+  border: 2px solid #cf2c78;
+  border-radius: 2px;
+  
+}
+.plan:hover{
+  color: #cf2c78;
+  background: none;
+}
+.vision .explicabo{
+  background: none;
+  color: #cf2c78;
+  border: 2px solid #cf2c78;
+  border-radius: 2px;
+  font-size: 15px;
+  padding: 10px 15px;
+  
+}
+.btn:hover{
+  background-color: #cf2c78;
+  color: white; 
+}
+p{ 
+  margin-left: 70px;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 300;
+}
+p .story{
+  background-color: rgba(128, 128, 128, 0.2);
+  font-size: 30px;
+}
+
+
+.orient{
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 50px;
+  justify-content: space-between;
+  
+}
+.orient .right{
+  margin: 30px;
+  font-size: 15px;
+  justify-content: center;
+  align-items: right;
+  
+}
+.orient h3{
+  margin: 50px;
+}
+
+.orient p{
+  margin: 50px;
+}
+.orient .album{
+  background-color: #cf2c78;
+  color: white;
+  border: 2px solid #cf2c78;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 12px 36px;
+  margin: 50px;
+}
+
+.orient .left img{
+  height: auto;
+  width: 600px;
+}
+/* tms */
+.team{
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px;
+  justify-content: space-between;
+  
+}
+.says{
+  margin: 30px;
+}
+.says #details{
+  text-align: left;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+#details h3{
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.says img{
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+
+.says h4{
+  color: #cf2c78;
+  font-size: 25px;
+  margin: 20px;
+  
+}
+.says p{
+  width: 100%;
+  margin: 20px;
+}
+.says button{
+  background-color: #cf2c78;
+  color: white;
+  border: 2px solid #cf2c78;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 12px;
+  margin: 20px;
+  width: 55%;
+
+}
+
+
+.conc{
+  margin: 20px;
+}
+.conc h2,h1{
+  color: #cf2c78;
+  font-size: 35px;
+  margin: 30px;
+}
+
+.conc p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+.conc p span{
+  background-color: #cf2c78;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+  
+
+footer{
+  padding: 20px;
+  height: 100px;
+  background-color: rgba(206, 202, 202, 0.2);
+  text-align: center;
+  font-size: 15px;
+}
+
